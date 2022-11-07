@@ -11,5 +11,10 @@ steps{
 echo "deploy"
 }
 }
+stage (deliver){
+steps{
+echo "to deliver"
+}
+}
 }
 }
