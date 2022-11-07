@@ -9,6 +9,15 @@ steps{
 echo "build"
 }
 }
+stage(deploy){
+agent{
+label 'node2'
+}
+steps{
+echo "deploy"
 }
 }
+}
+}
+
 
