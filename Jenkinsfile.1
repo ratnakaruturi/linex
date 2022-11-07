@@ -1,10 +1,12 @@
-
-pipe line{
+pipeline{
 agent any
 stages{
 stage(build){
+agent{
+label 'node1'
+}
 steps{
-echo"primt the stage"
+echo "build"
 }
 }
 }
