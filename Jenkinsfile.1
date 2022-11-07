@@ -1,2 +1,12 @@
 echo "my script"
-
+pipe line{
+stages{
+stage(build){
+label: 'node1'{
+steps{
+echo"primt the stage"
+}
+}
+}
+}
+}
