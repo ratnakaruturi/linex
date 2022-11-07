@@ -6,5 +6,10 @@ steps{
 echo "build stage"
 }
 }
+stage (deploy){
+steps{
+echo "deploy"
+}
+}
 }
 }
