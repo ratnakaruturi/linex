@@ -1,9 +1,6 @@
 pipeline{
 agent any
 stages{
-agent{
-label 'node1'
-}
 stage(build){
 steps{
 echo "read name "
