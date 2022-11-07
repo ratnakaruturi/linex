@@ -3,7 +3,7 @@ agent any
 stages{
 stage(build){
 steps{
-echo "read name ${name}
+echo "read name ${name}"
 }
 }
 }
