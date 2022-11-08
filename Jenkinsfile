@@ -3,7 +3,7 @@ agent any
     stages{
 stage(build){
 steps{
-echo "build stage"
+echo "build stage 1 "
 }
 }
 stage (deploy){
